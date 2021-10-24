@@ -1,11 +1,8 @@
 import unittest
 import requests
-import datetime
 SITE = "https://suchonsite-server.herokuapp.com/"
     
-
 class TestServiceSite(unittest.TestCase):
-
 
     def test_unexisting_date(self):
         """
